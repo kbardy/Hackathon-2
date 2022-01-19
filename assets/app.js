@@ -10,3 +10,8 @@ import './styles/app.css';
 
 // start the Stimulus application
 import './bootstrap';
+
+const forum = document.querySelector('.search');
+forum.addEventListener('click', function(){
+    
+})
