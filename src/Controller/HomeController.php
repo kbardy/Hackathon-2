@@ -23,4 +23,16 @@ class HomeController extends AbstractController
     {
         return $this->render('bathroom.html.twig');
     }
+
+    #[Route('/pro', name: 'pro')]
+    public function proFirst(): Response
+    {
+        return $this->render('pro.html.twig');
+    }
+
+    #[Route('/profile', name: 'profile')]
+    public function proSecond(): Response
+    {
+        return $this->render('profile.html.twig');
+    }
 }

@@ -28,7 +28,7 @@ body {
     justify-content: space-around;
     display: flex;
     flex-direction: column;
-    margin: 0rem 5rem;
+    margin: 2rem 5rem;
     height: 15vh;
     padding: 1.5rem;
     background-color: #12CCB4;
@@ -82,7 +82,7 @@ body {
     justify-content: space-around;
       
   }
-  a{
+  .category{
       padding: 5px;
       background-color: #FF9F1C;
       border-radius: 2px;
