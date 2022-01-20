@@ -27,3 +27,10 @@ imgSearch.addEventListener('click', function(){
     imgForm.src = "/build/images/form.jpg";
 }
 )
+const imgSpeak = document.querySelector('.img-speak');
+
+imgForm.addEventListener('click', function (){
+
+    imgForm.src = "/build/images/speak.jpg";
+}
+)
