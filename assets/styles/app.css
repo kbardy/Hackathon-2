@@ -5,6 +5,7 @@
 
 body {
     background-color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*---------navbar---------*/
@@ -21,12 +22,76 @@ body {
 }
 
 /*---------searchbar---------*/
-
-.searchbar {
+.search{
+    -webkit-box-shadow: 5px 5px 6px 5px rgba(0,0,0,0.15); 
+    box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.15);
+    justify-content: space-around;
     display: flex;
-    justify-content: center;
-    margin-top: 3rem;
+    flex-direction: column;
+    margin: 0rem 5rem;
+    height: 15vh;
+    padding: 1.5rem;
+    background-color: #12CCB4;
 }
+.searchbar {
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.form-search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.search-bar{
+    width:70%;
+    border-radius: 20px 0 0 20px;
+    background-color: rgba(224, 224, 224, 0.979);
+    border: 1px solid #888888;
+    padding: 5px;
+}
+.btn {
+    background: #FF9F1C;
+    background-image: -webkit-linear-gradient(top, #FF9F1C, FF9F1C);
+    background-image: -moz-linear-gradient(top, #FF9F1C, FF9F1C);
+    background-image: -ms-linear-gradient(top, #FF9F1C, FF9F1C);
+    background-image: -o-linear-gradient(top, #FF9F1C, FF9F1C);
+    background-image: linear-gradient(to bottom, #FF9F1C, FF9F1C);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #888888;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 5px 8px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: C193A;
+    background-image: -webkit-linear-gradient(top, C193A, C193A);
+    background-image: -moz-linear-gradient(top, C193A, C193A);
+    background-image: -ms-linear-gradient(top, C193A, C193A);
+    background-image: -o-linear-gradient(top, C193A, C193A);
+    background-image: linear-gradient(to bottom, C193A, C193A);
+    text-decoration: none;
+  }
+  .btn-category{
+      margin-top: 1rem;
+      display: flex;
+    justify-content: space-around;
+      
+  }
+  a{
+      padding: 5px;
+      background-color: #FF9F1C;
+      border-radius: 2px;
+      color: white;
+      width: 5rem;
+      text-align: center;
+  }
+
+
 
 .buttonDiv{
     font-family: 'Open Sans', sans-serif;
