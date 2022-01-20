@@ -9,7 +9,7 @@ body {
 
 /*---------navbar---------*/
 
-.navabar {
+.navbar {
     flex-grow: 1;
     margin: auto;
     padding: 2rem 0;
