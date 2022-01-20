@@ -17,20 +17,22 @@ const forum = document.querySelector('.search');
 }
 )
 
-
-const imgForm = document.querySelector('.img-form');
+const imgForm = document.querySelector('.maximeCom');
+const imgForm2 = document.querySelector('.manonCom');
 const imgSearch = document.querySelector('.search');
 
 
 imgSearch.addEventListener('click', function(){
 
-    imgForm.src = "/build/images/form.jpg";
+    imgForm.src = "/build/images/maximeCom.jpg";
+    imgForm2.src = "/build/images/manonCom.png";
 }
 )
+
 const imgSpeak = document.querySelector('.img-speak');
 
 imgForm.addEventListener('click', function (){
 
-    imgForm.src = "/build/images/speak.jpg";
+    imgSpeak.src = "/build/images/speak.jpg";
 }
 )
