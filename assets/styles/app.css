@@ -57,3 +57,8 @@ body {
     justify-content: center;
     margin-top: 2rem;
 }
+
+.speakManon {
+    display: flex;
+    justify-content: center;
+}
