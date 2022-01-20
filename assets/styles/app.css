@@ -8,6 +8,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
 /*---------navbar---------*/
 
 .navbar {
@@ -97,7 +100,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    border: 1px solid #FF9F1C;
+    margin: 0;
+    padding: 1rem 3rem;
+    justify-content: space-around;
 }
 
 .buttonText{
@@ -105,15 +113,19 @@ body {
     display: table-cell;
 }
 
+.satisfaction{
+    justify-content: space-around;
+    align-items: center;
+}
+
 .button{
-    display: flex;
-    justify-content: center;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     font-size: 1rem;
     color: #FFFFFF;
     background-color: #41d6c3;
     border-radius: 5px;
+    border:none;
 }
 /*---------form---------*/
 
