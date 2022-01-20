@@ -90,9 +90,7 @@ body {
       width: 5rem;
       text-align: center;
   }
-
-
-
+/*
 .buttonDiv{
     font-family: 'Open Sans', sans-serif;
     display: flex;
@@ -120,12 +118,7 @@ body {
 .speak {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-}
-
-.speakManon {
-    display: flex;
-    justify-content: center;
+    
 }
 
 .full-speak {
