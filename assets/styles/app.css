@@ -62,3 +62,26 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.full-speak {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30rem;
+}
+
+.full-speak2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30rem;
+}
+
+.full-speak3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30rem;
+}
+
+.hr-maxime {
+    display: flex;
+    justify-content: flex-end;
+}
