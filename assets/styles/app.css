@@ -7,9 +7,9 @@ body {
     background-color: white;
 }
 
-/*---------header---------*/
+/*---------navbar---------*/
 
-.header {
+.navabar {
     flex-grow: 1;
     margin: auto;
     padding: 2rem 0;
