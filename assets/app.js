@@ -15,3 +15,13 @@ const forum = document.querySelector('.search');
 forum.addEventListener('click', function(){
     
 })
+
+
+const imgForm = document.querySelector('.img-form');
+const imgSearch = document.querySelector('.search');
+
+
+imgSearch.addEventListener('click', function(){
+
+  imgForm.src = "/build/images/form.jpg";
+})

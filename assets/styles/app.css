@@ -27,3 +27,11 @@ body {
     justify-content: center;
     margin-top: 3rem;
 }
+
+/*---------form---------*/
+
+.speak {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
