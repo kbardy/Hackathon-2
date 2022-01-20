@@ -144,3 +144,18 @@ a{
     display: flex;
     justify-content: center;
 }
+
+/*---------pro---------*/
+.deconnect{
+    position: absolute;
+    right: 10px;
+    top: 25vh;
+    width: 15vw;
+}
+
+.profile1, .profile2{
+    position: absolute;
+    left: 20px;
+    top: 35vh;
+    width: 23vw;
+}
