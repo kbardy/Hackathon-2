@@ -29,10 +29,26 @@ imgSearch.addEventListener('click', function(){
 }
 )
 
-const imgSpeak = document.querySelector('.img-speak');
+const imgSpeak = document.querySelector('.maxime1');
 
 imgForm.addEventListener('click', function (){
 
-    imgSpeak.src = "/build/images/speak.jpg";
+    imgSpeak.src = "/build/images/maxime1.png";
+}
+)
+
+const mario1 = document.querySelector('.mario1');
+
+imgSpeak.addEventListener('click', function (){
+   
+    mario1.src = "/build/images/mario1.png";
+}
+)
+
+const maxime2 = document.querySelector('.maxime2')
+
+mario1.addEventListener('click', function (){
+    
+    maxime2.src = "/build/images/maxime2.png";
 }
 )
