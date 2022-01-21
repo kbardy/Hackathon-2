@@ -6,9 +6,11 @@ namespace App\Controller;
 
 use App\Repository\CommentRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+
 
 
 class HomeController extends AbstractController
@@ -50,16 +52,16 @@ class HomeController extends AbstractController
     }
     
 
-   // #[Route('/pro', name: 'pro')]
-   // public function proFirst(): Response
-    //{
-     //   return $this->render('pro.html.twig');
-    //}
-
-    //#[Route('/profile', name: 'profile')]
-    //public function proSecond(): Response
-    //{
-      //  return $this->render('profile.html.twig');
-    //}
-//}}
+    #[Route('/pro', name: 'pro')]
+    public function proFirst(): Response
+    {
+       return $this->render('pro.html.twig');
     }
+
+    #[Route('/profile', name: 'profile')]
+    public function proSecond(): Response
+    {
+        return $this->render('profile.html.twig');
+    }
+}
+    

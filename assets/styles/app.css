@@ -6,6 +6,7 @@
 body {
     background-color: white;
     font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
 }
 
 a{
@@ -16,7 +17,7 @@ a{
 .navbar {
     flex-grow: 1;
     margin: auto;
-    padding: 2rem 0;
+    padding: 1rem 0 0;
     min-width: 20vw;
     max-width: fit-content;
     display: flex;
@@ -94,6 +95,44 @@ a{
       text-align: center;
   }
 
+
+
+.buttonDiv{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #FF9F1C;
+    width: 50vw;
+    margin: auto;
+    padding: 1rem 2rem;
+    justify-content: space-around;
+}
+
+.buttonText{
+    vertical-align:middle;
+    display: table-cell;
+}
+
+.satisfaction{
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;
+    display: flex;
+}
+
+.button{
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1rem;
+    color: #FFFFFF;
+    background-color: #41d6c3;
+    border-radius: 5px;
+    border:none;
+}
+/*---------form---------*/
+
 .speak {
     display: flex;
     justify-content: center;
@@ -107,4 +146,48 @@ a{
 .full-speak {
     display: flex;
     justify-content: center;
+}
+
+/*---------pro---------*/
+.deconnect{
+    position: absolute;
+    right: 50px;
+    top: 25vh;
+    width: 15vw;
+}
+
+.profile1, .profile2{
+    position: absolute;
+    left: 20px;
+    top: 35vh;
+    width: 25vw;
+}
+
+.biographie{
+    position: absolute;
+    left: 35vw;
+    top: 35vh;
+    width: 25vw;
+}
+
+.avantages{
+    position: absolute;
+    right: 10vw;
+    top: 35vh;
+    width: 25vw;
+
+}
+
+.conseil{
+    position: absolute;
+    left: 35vw;
+    top: 65vh;
+    width: 25vw;
+}
+
+.jeconseil{
+    position: absolute;
+    left: 7vw;
+    top: 83vh;
+    width: 15vw;
 }
