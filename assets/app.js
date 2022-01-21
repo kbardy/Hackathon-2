@@ -11,7 +11,7 @@ import './styles/app.css';
 // start the Stimulus application
 import './bootstrap';
 
-const forum = document.querySelector('.search');
+const forum = document.querySelector('.btn');
 
     forum.addEventListener('click', function(){   
 }
@@ -19,13 +19,14 @@ const forum = document.querySelector('.search');
 
 const imgForm = document.querySelector('.maximeCom');
 const imgForm2 = document.querySelector('.manonCom');
-const imgSearch = document.querySelector('.search');
+const searchForm = document.querySelector('.form-search');
 
 
-imgSearch.addEventListener('click', function(){
-
-    imgForm.src = "/build/images/maximeCom.jpg";
+searchForm.addEventListener('submit', function(event){
+    event.preventDefault();
     imgForm2.src = "/build/images/manonCom.png";
+    imgForm.src = "/build/images/maximeCom.jpg";
+    
 }
 )
 
@@ -41,7 +42,6 @@ const imgRemoveSpeak = document.querySelector('.img-speak')
 
 imgSpeak.addEventListener('click', function(){
 
-    document.getElementsByClassName('speak').hidden = true;
     imgRemoveSpeak.src = "";
 }
 )
