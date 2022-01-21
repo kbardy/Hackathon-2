@@ -24,8 +24,9 @@ const searchForm = document.querySelector('.form-search');
 
 searchForm.addEventListener('submit', function(event){
     event.preventDefault();
-    imgForm.src = "/build/images/maximeCom.jpg";
     imgForm2.src = "/build/images/manonCom.png";
+    imgForm.src = "/build/images/maximeCom.jpg";
+    
 }
 )
 

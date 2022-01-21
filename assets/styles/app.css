@@ -8,6 +8,9 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
 /*---------navbar---------*/
 
 .navbar {
@@ -90,35 +93,15 @@ body {
       width: 5rem;
       text-align: center;
   }
-/*
-.buttonDiv{
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.buttonText{
-    vertical-align:middle;
-    display: table-cell;
-}
-
-.button{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 1rem;
-    color: #FFFFFF;
-    background-color: #41d6c3;
-    border-radius: 5px;
-}
-/*---------form---------*/
 
 .speak {
     display: flex;
     justify-content: center;
-    
+}
+
+.speakManon {
+    display: flex;
+    justify-content: center;
 }
 
 .full-speak {
