@@ -30,11 +30,14 @@ searchForm.addEventListener('submit', function(event){
 }
 )
 
+const satisfaction = document.querySelector('.buttonDiv');
+
 const imgSpeak = document.querySelector('.img-speak');
 
 imgForm.addEventListener('click', function (){
 
     imgSpeak.src = "/build/images/discussion.png";
+    satisfaction.style.display = "flex";
 }
 )
 
